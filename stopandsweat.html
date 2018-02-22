@@ -2,6 +2,7 @@
 <html>
 <head>
     <title>stopnsweatsmarterfitness</title>
+    <link rel="stylesheet" type="text/css" href="stopandsweat.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <script
   src="http://code.jquery.com/jquery-2.2.4.min.js"
@@ -11,27 +12,60 @@
 </head>
 <body>
 <!-- logo will link to home page  -->
-    <div><img src="stopandsweatlogo.jpg" width="100"></div>
+<div class="row" >
+    <div class="col-md-5 col-xs-5">
+    </div>
+    <div class="col-md-2 col-xs-2">
+        <div id="center">
+            <img src="stopandsweatlogo.jpg" width="100">
+        </div>
+    </div class="col-md-5 col-xs-5">
+    <div>
+    </div>
 
-    <nav>
-        <p>HOME
-        PERSONAL TRAINING
-        GROUP CLASSES
-        ONLINE TRAINING
-        HEALTH &amp; NUTRITION COACHING
-        ABOUT US
-        CONNECT</p>
+</div>
+<div class="container">
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#"></a>
+            </div>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li class="active" ><a  href="#">HOME<span class="sr-only">(current)</span></a></li>
+                    <li><a href="#">PERSONAL TRAINING</a></li>
+                    <li><a href="#">GROUP CLASSES</a></li>
+                    <li><a href="#">ONLINE TRAINING</a></li>
+                    <li><a href="#">HEALTH &amp; NUTRITION COACHING</a></li>
+                    <li><a href="#">ABOUT US</a></li>
+                    <li><a href="#">CONNECT</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
     </nav>
-
+</div>
        <!-- (parallax effect on image) -->
        <!-- (text and button will float with in image -all centered-) -->
-    <div>
-        <img src="https://cdn.pixabay.com/photo/2015/05/15/14/36/person-768591_960_720.jpg">
+    <div class="container">
+        <div id="main-img-1">
 
-        <p>welcome to</p>
-        <h1>stop and sweat smarter fitness</h1>
-        <h3>personal training . group classes. online training</h3>
-        <button> get started today</button></div>
+
+            <p>welcome to</p>
+            <h1>stop and sweat smarter fitness</h1>
+            <h3>personal training . group classes. online training</h3>
+            <button> get started today</button>
+        </div>
 
 
 
@@ -156,5 +190,6 @@
     </footer>
     <!-- may use below image -->
     <!-- <img src="https://cdn.pixabay.com/photo/2016/11/09/20/53/yoga-1812695_960_720.jpg"> -->
+    </div>
 </body>
 </html>

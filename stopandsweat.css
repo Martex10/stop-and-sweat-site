@@ -1,0 +1,19 @@
+html, body {
+    height: 100%;
+}
+
+#center{
+    margin:0 auto;
+}
+div#main-img-1{
+    width: 100%
+    height: 80%;
+    border:1px solid black;
+}
+#main-img-1{
+    background-image: url(https://cdn.pixabay.com/photo/2015/05/15/14/36/person-768591_960_720.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
